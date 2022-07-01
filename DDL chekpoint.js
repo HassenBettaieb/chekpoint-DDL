@@ -1,4 +1,4 @@
-CREATE TABLE Product(
+ CREATE TABLE Product(
     Product_id VARCHAR2(20),
     Product_Name VARCHAR2(20) NOT NULL,
     Price NUMBER CHECK(NUMBER>0)
